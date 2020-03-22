@@ -24,4 +24,6 @@ some useful tool that help you write node projects
       1. 不安装的执行很多 commond line 包
       2. npx node@8 -v 不安装 nvm 等工具使用 node 的不同版本
       3. 通过 url 运行代码npx https://gist.github.com/zkat/4bc19503fe9e9309e2bfaa2c58074d32
+11. 对比 node 和 浏览器的 event loop 不同
+12. 区分 tasks microtasks quene job quene https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
 
