@@ -26,4 +26,8 @@ some useful tool that help you write node projects
       3. 通过 url 运行代码npx https://gist.github.com/zkat/4bc19503fe9e9309e2bfaa2c58074d32
 11. 对比 node 和 浏览器的 event loop 不同
 12. 区分 tasks microtasks quene job quene https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+13. 区分 process.nextTick setImmadite()
+14. the Battery API the Fetch API Service Workers 在浏览器 runtime 均提供 promise 接口
+15. 使用 util.promisify 将旧的 error-first 的 Node API 转换为 promise
+16. 详细阅读 mdn Promise 的定义和使用，明确 async await 用法 & 正确捕获 ERROR
 
