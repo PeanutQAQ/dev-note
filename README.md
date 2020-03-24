@@ -30,4 +30,16 @@ some useful tool that help you write node projects
 14. the Battery API the Fetch API Service Workers 在浏览器 runtime 均提供 promise 接口
 15. 使用 util.promisify 将旧的 error-first 的 Node API 转换为 promise
 16. 详细阅读 mdn Promise 的定义和使用，明确 async await 用法 & 正确捕获 ERROR
+17. node 核心模块
+       1. Event emitter 事件模块
+       2. http 模块 - createServer 会返回一个 Server 对象 - 原生node || request 库 || axios 可以在 node 端发起请求 https://codeburst.io/all-about-http-in-node-js-and-3-best-ways-for-http-requests-in-web-development-6e5b6876c3a4
+       3. http createServer 传递的 callback 只会在获取完 headers 时触发，如果要获取 request body 需要用 流 处理
+18. 
+
+
+
+
+### todo
+1. 写一个 http 模块的详细介绍，从 event emmitter 开始 到 request stream
+2. 写一个静态服务器参考：https://codeburst.io/all-about-http-in-node-js-and-3-best-ways-for-http-requests-in-web-development-6e5b6876c3a4
 
