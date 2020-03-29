@@ -34,7 +34,9 @@ some useful tool that help you write node projects
        1. Event emitter 事件模块
        2. http 模块 - createServer 会返回一个 Server 对象 - 原生node || request 库 || axios 可以在 node 端发起请求 https://codeburst.io/all-about-http-in-node-js-and-3-best-ways-for-http-requests-in-web-development-6e5b6876c3a4
        3. http createServer 传递的 callback 只会在获取完 headers 时触发，如果要获取 request body 需要用 流 处理
-18. 
+       4. buffer
+       5. 区分 node 的 NODE_ENV node 默认是 developement 设置 export NODE_ENV=production 或者命令行启动
+18. node stream-handbook 必学 stream 是 node 的精髓
 
 
 
@@ -42,4 +44,5 @@ some useful tool that help you write node projects
 ### todo
 1. 写一个 http 模块的详细介绍，从 event emmitter 开始 到 request stream
 2. 写一个静态服务器参考：https://codeburst.io/all-about-http-in-node-js-and-3-best-ways-for-http-requests-in-web-development-6e5b6876c3a4
-
+3. 一个图床
+4. 一个实现 jwt 的登陆
