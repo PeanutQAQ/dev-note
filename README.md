@@ -1,7 +1,7 @@
 # Node.js Deploy
 
 #### 部署前准备
-
+0. 安装 git & vscode 等
 1. 安装 nvm 管理 Node 版本
 2. 安装 pm2 启动 Node 程序
 3. 安装 Nginx 管理各个 Node 项目的端口
