@@ -10,9 +10,11 @@
   + 在 conf.d 中拆分不同服务的 Nginx 配置
   + 增加 https 证书
 4. 采用 NginxConfig 生成 Nginx 配置文件
+5. 安装 serve 做静态服务器
 
 
   项目   |  架构
 :--------:|:-------:
-Medium  | 后端用 Koa
-pure-Fe | 后端用 Serve 
+Medium  | 前后端一个仓库 后端 express
+blog-FE | 前端代码 用 serve 起一个静态服务
+blog-BE | 后端代码 Koa
