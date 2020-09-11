@@ -18,3 +18,8 @@
 Medium  | 前后端一个仓库 后端 express
 blog-FE | 前端代码 用 serve 起一个静态服务
 blog-BE | 后端代码 Koa
+
+
+#### 第三方快速部署工具
+https://app.netlify.com/teams/peanutqaq/sites netlify 快速部署自己的项目
+https://ngrok.com/ ngrok 把自己本地项目反向代理到网上
