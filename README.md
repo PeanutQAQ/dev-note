@@ -19,6 +19,10 @@ Medium  | 前后端一个仓库 后端 express
 blog-FE | 前端代码 用 serve 起一个静态服务
 blog-BE | 后端代码 Koa
 
+TODO
+1. docker 容器化
+2. 使用 express
+3. 制作脚手架生成前后端技术 template
 
 #### 第三方快速部署工具
 https://app.netlify.com/teams/peanutqaq/sites netlify 快速部署自己的项目
