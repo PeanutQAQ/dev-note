@@ -12,13 +12,6 @@
 4. 采用 NginxConfig 生成 Nginx 配置文件
 5. 安装 serve 做静态服务器
 
-
-  项目   |  架构
-:--------:|:-------:
-Medium  | 前后端一个仓库 后端 express
-blog-FE | 前端代码 用 serve 起一个静态服务
-blog-BE | 后端代码 Koa
-
 TODO
 1. docker 容器化
 2. 使用 express
@@ -30,3 +23,5 @@ https://ngrok.com/ ngrok 把自己本地项目反向代理到网上
 通过把 win10 的公钥上传到远程主机 摆脱了每次都要输入密码的问题：
 原理参考：https://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html
 windows无 copy-ssh-id解决：https://xmanyou.com/windows-10-ru-he-zai-widnows10shang-yong-sshdeng-lu-ubuntu/
+
+
